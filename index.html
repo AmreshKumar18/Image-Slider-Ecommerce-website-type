@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="small-image">
+            <img src="2.jpg"onclick="mainimage(this)">
+            <img src="1.jpg" onclick="mainimage(this)">
+            <img src="3.jpg" onclick="mainimage(this)">
+        </div>
+        <div class="main-image">
+            <img id="fullimage" src="2.jpg">
+        </div>
+    </div>
+
+    <script>
+        function mainimage(smallimg){
+            var bigimage = document.getElementById("fullimage")
+            bigimage.src = smallimg.src;
+        }
+    </script>
+</body>
+</html>

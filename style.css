@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.small-image img{
+    width: 70px;
+    height: 140px;
+    margin: 5px;
+    padding: auto;
+    display: block;
+    border: 1px solid orange;
+    border-radius: 6px;
+    opacity: 0.6;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.small-image img:hover{
+    opacity: 1;
+}
+/*  */
+.main-image img{
+    width: 220px;
+    border: 1px solid orange;
+    border-radius: 6px;
+    margin: 5px;
+    height: 425px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}

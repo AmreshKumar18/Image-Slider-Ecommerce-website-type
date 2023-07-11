@@ -38,3 +38,14 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
+
+@media (max-width: 480px){
+    .small-image img{
+        width: 45px;
+        height: 90px;
+    }
+    .main-image img{
+        width: 120px;
+        height: 275px;
+    }
+}
